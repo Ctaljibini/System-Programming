@@ -78,7 +78,7 @@ public class client {
       writer.flush();
       System.err.println(reader.readLine());
 
-      socket.close(); // soketi close.
+      socket.close(); // socket close.
     }catch(IOException e){
       e.printStackTrace();
     }
